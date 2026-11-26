@@ -33,5 +33,8 @@ mvn test
 ## Test data
 Only the public demo credentials published by the demo sites themselves are used (SauceDemo's login page lists its test users; Restful Booker's API docs list the admin demo login). No private credentials are in this repo.
 
+## Test evidence
+`docs/surefire-TestSuite.txt` and `docs/maven-run-final.log` are the actual Maven/Surefire output of the final run (7 run, 0 failures).
+
 ## Credits
 Built with AI assistance (Instinct); tests were run and debugged against the live API, and the results above come from that run.

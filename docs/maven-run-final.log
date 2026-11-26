@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.nikhilqa:restful-booker-restassured >---------------
+[INFO] Building restful-booker-restassured 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ restful-booker-restassured ---
+[INFO] skip non existing resourceDirectory /tmp/projects/restful-booker-restassured/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ restful-booker-restassured ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ restful-booker-restassured ---
+[INFO] skip non existing resourceDirectory /tmp/projects/restful-booker-restassured/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ restful-booker-restassured ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 3 source files with javac [debug target 11] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.1:test (default-test) @ restful-booker-restassured ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.030 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.146 s
+[INFO] Finished at: 2026-11-26T11:31:58+05:30
+[INFO] ------------------------------------------------------------------------
